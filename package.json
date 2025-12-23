@@ -1,0 +1,23 @@
+{
+    "name": "bing-wallpaper-spider",
+    "version": "1.0.0",
+    "description": "Auto fetch Bing wallpapers daily and share via GitHub Pages",
+    "main": "index.js",
+    "scripts": {
+        "fetch": "node scripts/fetch-wallpaper.js",
+        "test": "node scripts/test.js"
+    },
+    "keywords": [
+        "bing",
+        "wallpaper",
+        "spider",
+        "github-actions"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "moment": "^2.29.4"
+    },
+    "devDependencies": {}
+}
