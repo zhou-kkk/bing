@@ -435,8 +435,7 @@ function generateHTML(wallpapers) {
         ` : ''}
         
         <footer>
-            <p>💡 数据来自 <a href="https://www.bing.com" target="_blank" style="color: yellow;">Bing</a> | 
-            📱 由 <a href="https://github.com" target="_blank" style="color: white;">GitHub Actions</a> 自动更新</p>
+            <p>💡 数据来自 <a href="https://www.bing.com" target="_blank" style="color: yellow;">Bing</a></p>
             <p>最后更新: ${moment().format('YYYY-MM-DD HH:mm:ss')}</p>
         </footer>
     </div>
