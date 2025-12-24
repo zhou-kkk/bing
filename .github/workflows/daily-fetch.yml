@@ -30,6 +30,16 @@ jobs:
       - name: Fetch wallpaper
         run: npm run fetch
         
+      - name: Verify index.html updated
+        run: |
+          if [ -f public/index.html ]; then
+            echo "✅ public/index.html exists and will be committed"
+            ls -lh public/index.html
+          else
+            echo "❌ public/index.html not found!"
+            exit 1
+          fi
+        
       - name: Configure Git
         run: |
           git config --local user.email "action@github.com"
@@ -37,10 +47,10 @@ jobs:
           
       - name: Commit changes
         run: |
-          if git diff --quiet; then
+          git add -A
+          if git diff --quiet --cached; then
             echo "No changes to commit"
           else
-            git add -A
             git commit -m "🖼️ Auto: fetch Bing wallpaper on $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
