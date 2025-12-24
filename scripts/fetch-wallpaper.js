@@ -213,8 +213,25 @@ function generateHTML(wallpapers) {
     </div>
   `).join('');
 
+    // 注意：保持 items 为数组，以便后续可以使用 slice/join 操作
+    // 把上面的 join 移除，返回数组
+    // 重新生成 itemsArray 作为数组形式
+    const itemsArray = wallpapers.map((wp, index) => `
+        <div class="wallpaper-item">
+            <img src="${wp.url || wp.imageUrl || '#'}" alt="${wp.title}" loading="lazy">
+            <div class="info">
+                <h3>${wp.title || '未知标题'}</h3>
+                <p class="description">${wp.description || ''}</p>
+                <p class="copyright">${wp.copyright || ''}</p>
+                <p class="date">${wp.date || ''}</p>
+                ${wp.url ? `<a href="${wp.url}" target="_blank" class="btn-download">下载原图</a>` : ''}
+            </div>
+        </div>
+    `);
+
     return `<!DOCTYPE html>
 <html lang="zh-CN">
+<!-- wallpaper-id: ${latest.id || ''} timestamp: ${latest.timestamp || ''} -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -430,7 +447,7 @@ function generateHTML(wallpapers) {
         ${wallpapers.length > 1 ? `
         <h2 class="wallpapers-title">📚 历史壁纸</h2>
         <div class="wallpapers-grid">
-            ${items.slice(1).join('')}
+            ${itemsArray.slice(1).join('')}
         </div>
         ` : ''}
         
