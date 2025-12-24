@@ -1,8 +1,6 @@
 # Bing 壁纸自动爬虫
 
-[![Daily Fetch Bing Wallpaper](https://github.com/im-zhou/bing/actions/workflows/daily-fetch.yml/badge.svg)](https://github.com/im-zhou/bing/actions/workflows/daily-fetch.yml)
-
-基于 [im-zhou/bing](https://github.com/im-zhou/bing) 项目提取的 **Bing 壁纸 API 接口**，使用 **GitHub Actions** 实现每日自动获取最新必应壁纸，并上传至本仓库，同时通过 **GitHub Pages** 对外分享。
+基于 [im-zhou/bing](https://github.com/im-zhou/bing) 项目提取的 **Bing 壁纸 API 接口**，使用 **GitHub Actions** 实现每日自动获取最新必应壁纸，并上传至本仓库。
 
 ## 🎯 功能特性
 
@@ -209,40 +207,6 @@ const LANG_MKT = 'zh-CN';  // 修改此处
 - `ja-JP` - 日文
 - 等等...
 
-## 📦 依赖说明
-
-- `axios` - HTTP 请求库
-- `moment` - 时间日期处理库
-
-## 🐛 故障排除
-
-### 问题：GitHub Actions 运行失败
-
-**解决方案：**
-1. 检查 `Settings` > `Actions` 是否启用
-2. 查看 Actions 日志获取详细错误信息
-3. 确保 `GitHub Pages` 部分配置正确
-
-### 问题：页面无法访问
-
-**解决方案：**
-1. 确认 `gh-pages` 分支已创建
-2. 检查 `Settings` > `Pages` 配置
-3. 等待几分钟让 GitHub Pages 重新部署
-
-### 问题：API 返回错误
-
-**解决方案：**
-1. 运行本地测试：`npm run test`
-2. 检查网络连接和 Bing API 可用性
-3. 查看 Actions 日志中的详细错误
-
-## 🔒 安全性考虑
-
-- GitHub Actions 秘钥通过 `${{ secrets.GITHUB_TOKEN }}` 自动管理
-- 无需配置外部密钥或凭证
-- 所有操作都在 GitHub 托管运行器上进行
-
 ## 📄 许可证
 
 MIT License
@@ -251,12 +215,3 @@ MIT License
 
 - 感谢 [im-zhou/bing](https://github.com/im-zhou/bing) 项目提供的 API 参考
 - 感谢 Bing 提供的每日壁纸服务
-
-## 📮 支持
-
-如有问题或建议，欢迎提交 [Issue](https://github.com/yourusername/bing/issues) 或 [Pull Request](https://github.com/yourusername/bing/pulls)
-
----
-
-**更新时间：** 2024年
-**作者：** Your Name
