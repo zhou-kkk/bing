@@ -19,8 +19,7 @@ bing/
 │   └── workflows/
 │       └── daily-fetch.yml          # GitHub Actions 工作流
 ├── scripts/
-│   ├── fetch-wallpaper.js           # 核心爬虫脚本（提取Bing接口）
-│   └── test.js                      # API测试脚本
+│   └── fetch-wallpaper.js           # 核心爬虫脚本（提取Bing接口）
 ├── data/
 │   ├── latest.json                  # 最新壁纸信息
 │   └── history.json                 # 历史壁纸记录（保留30条）
