@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!-- wallpaper-id: 20251228_nq5hx8a8w timestamp: 2025-12-28 02:07:03 -->
+<!-- wallpaper-id: 20251229_suzzis83p timestamp: 2025-12-29 02:05:12 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -179,6 +179,37 @@
             opacity: 0.9;
         }
         
+        /* Pagination Styles */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .page-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #0f574a;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .page-link:hover {
+            background: #f0f0f0;
+            border-color: #bbb;
+        }
+        
+        .page-link.active {
+            background: #0f574a;
+            color: white;
+            border-color: #0f574a;
+        }
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -203,20 +234,31 @@
         
         
         <div class="featured">
-            <img src="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" alt="仍存野性">
+            <img src="https://www.bing.com/th?id=OHR.AniTurkey_ZH-CN5838141955_1920x1080.jpg" alt="一座比城市更悠久的教堂">
             <div class="featured-info">
-                <h2>仍存野性</h2>
+                <h2>一座比城市更悠久的教堂</h2>
                 <p></p>
-                <p class="copyright">马达加斯加的黑白环尾狐猴 (© Cyrielle Beaubois/Getty Images)</p>
-                <a href="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" target="_blank" class="btn-download">⬇️ 下载原图</a>
+                <p class="copyright">阿尼遗址的圣格雷戈里教堂，卡尔斯省，土耳其 (© Kenan Talas/Getty Images)</p>
+                <a href="https://www.bing.com/th?id=OHR.AniTurkey_ZH-CN5838141955_1920x1080.jpg" target="_blank" class="btn-download">⬇️ 下载原图</a>
             </div>
         </div>
         
         
         
-        <h2 class="wallpapers-title">📚 历史壁纸</h2>
+        <h2 class="wallpapers-title">📚 历史壁纸 </h2>
         <div class="wallpapers-grid">
             
+        <div class="wallpaper-item">
+            <img src="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" alt="仍存野性" loading="lazy">
+            <div class="info">
+                <h3>仍存野性</h3>
+                <p class="description"></p>
+                <p class="copyright">马达加斯加的黑白环尾狐猴 (© Cyrielle Beaubois/Getty Images)</p>
+                <p class="date">2025-12-28</p>
+                <a href="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
+            </div>
+        </div>
+    
         <div class="wallpaper-item">
             <img src="https://www.bing.com/th?id=OHR.SuperiorIceMN_ZH-CN5339027344_1920x1080.jpg" alt="冬之碎片" loading="lazy">
             <div class="info">
@@ -275,9 +317,10 @@
         </div>
         
         
+        
         <footer>
             <p>💡 数据来自 <a href="https://www.bing.com" target="_blank" style="color: yellow;">Bing</a></p>
-            <p>最后更新: 2025-12-28 02:07:03</p>
+            <p>最后更新: 2025-12-29 02:05:12</p>
         </footer>
     </div>
 </body>
