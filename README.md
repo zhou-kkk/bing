@@ -113,7 +113,7 @@ npm run fetch
 
 **请求：**
 ```bash
-curl https://yourusername.github.io/api/latest.json
+curl https://example.com/api/latest.json
 ```
 
 **响应：**
@@ -136,7 +136,7 @@ curl https://yourusername.github.io/api/latest.json
 
 **请求：**
 ```bash
-curl https://yourusername.github.io/api/all.json
+curl https://example.com/api/all.json
 ```
 
 **响应：**

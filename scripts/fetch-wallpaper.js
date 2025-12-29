@@ -157,8 +157,8 @@ function saveWallpaperData(wallpaper) {
             history.unshift(wallpaper);
         }
 
-        // 只保留最近30条记录
-        history = history.slice(0, 30);
+        // 取消只保留最近30条记录的限制
+        // history = history.slice(0, 30);
 
         fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
 
@@ -185,9 +185,29 @@ function generateIndex() {
             wallpapers = JSON.parse(content);
         }
 
-        const html = generateHTML(wallpapers);
-        const indexFile = path.join(PUBLIC_DIR, 'index.html');
-        fs.writeFileSync(indexFile, html);
+        // 分页配置
+        const pageSize = 20;
+        const latest = wallpapers[0] || {};
+        const history = wallpapers.slice(1); // 排除第一张（今日壁纸）
+        const totalHistory = history.length;
+        const totalPages = Math.ceil(totalHistory / pageSize) || 1;
+
+        console.log(`   总记录数: ${wallpapers.length}, 历史记录: ${totalHistory}, 总页数: ${totalPages}`);
+
+        // 生成每一页
+        for (let page = 1; page <= totalPages; page++) {
+            const start = (page - 1) * pageSize;
+            const end = start + pageSize;
+            const pageItems = history.slice(start, end);
+
+            const html = generateHTML(latest, pageItems, page, totalPages);
+
+            const filename = page === 1 ? 'index.html' : `page-${page}.html`;
+            const filepath = path.join(PUBLIC_DIR, filename);
+
+            fs.writeFileSync(filepath, html);
+            console.log(`   已生成: ${filename}`);
+        }
 
         console.log('✅ 网页索引已生成');
     } catch (error) {
@@ -198,25 +218,9 @@ function generateIndex() {
 /**
  * 生成HTML内容
  */
-function generateHTML(wallpapers) {
-    const latest = wallpapers[0] || {};
-    const items = wallpapers.map((wp, index) => `
-    <div class="wallpaper-item">
-      <img src="${wp.url || wp.imageUrl || '#'}" alt="${wp.title}" loading="lazy">
-      <div class="info">
-        <h3>${wp.title || '未知标题'}</h3>
-        <p class="description">${wp.description || ''}</p>
-        <p class="copyright">${wp.copyright || ''}</p>
-        <p class="date">${wp.date || ''}</p>
-        ${wp.url ? `<a href="${wp.url}" target="_blank" class="btn-download">下载原图</a>` : ''}
-      </div>
-    </div>
-  `).join('');
-
-    // 注意：保持 items 为数组，以便后续可以使用 slice/join 操作
-    // 把上面的 join 移除，返回数组
-    // 重新生成 itemsArray 作为数组形式
-    const itemsArray = wallpapers.map((wp, index) => `
+function generateHTML(latest, pageItems, currentPage, totalPages) {
+    // 生成列表项 HTML
+    const itemsHtml = pageItems.map(wp => `
         <div class="wallpaper-item">
             <img src="${wp.url || wp.imageUrl || '#'}" alt="${wp.title}" loading="lazy">
             <div class="info">
@@ -227,7 +231,39 @@ function generateHTML(wallpapers) {
                 ${wp.url ? `<a href="${wp.url}" target="_blank" class="btn-download">下载原图</a>` : ''}
             </div>
         </div>
-    `);
+    `).join('');
+
+    // 生成分页导航 HTML
+    let paginationHtml = '';
+    if (totalPages > 1) {
+        paginationHtml = '<div class="pagination">';
+
+        // 上一页
+        if (currentPage > 1) {
+            const prevPage = currentPage - 1;
+            const prevLink = prevPage === 1 ? 'index.html' : `page-${prevPage}.html`;
+            paginationHtml += `<a href="${prevLink}" class="page-link">上一页</a>`;
+        }
+
+        // 页码
+        for (let i = 1; i <= totalPages; i++) {
+            if (i === currentPage) {
+                paginationHtml += `<span class="page-link active">${i}</span>`;
+            } else {
+                const link = i === 1 ? 'index.html' : `page-${i}.html`;
+                paginationHtml += `<a href="${link}" class="page-link">${i}</a>`;
+            }
+        }
+
+        // 下一页
+        if (currentPage < totalPages) {
+            const nextPage = currentPage + 1;
+            const nextLink = `page-${nextPage}.html`;
+            paginationHtml += `<a href="${nextLink}" class="page-link">下一页</a>`;
+        }
+
+        paginationHtml += '</div>';
+    }
 
     return `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -235,7 +271,7 @@ function generateHTML(wallpapers) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bing 每日壁纸</title>
+    <title>Bing 每日壁纸${currentPage > 1 ? ` - 第 ${currentPage} 页` : ''}</title>
     <style>
         * {
             margin: 0;
@@ -410,6 +446,37 @@ function generateHTML(wallpapers) {
             opacity: 0.9;
         }
         
+        /* Pagination Styles */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .page-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #0f574a;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .page-link:hover {
+            background: #f0f0f0;
+            border-color: #bbb;
+        }
+        
+        .page-link.active {
+            background: #0f574a;
+            color: white;
+            border-color: #0f574a;
+        }
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -432,7 +499,7 @@ function generateHTML(wallpapers) {
             <p>每日自动更新最新的必应壁纸</p>
         </header>
         
-        ${latest.url || latest.imageUrl ? `
+        ${currentPage === 1 && (latest.url || latest.imageUrl) ? `
         <div class="featured">
             <img src="${latest.url || latest.imageUrl}" alt="${latest.title}">
             <div class="featured-info">
@@ -444,11 +511,12 @@ function generateHTML(wallpapers) {
         </div>
         ` : ''}
         
-        ${wallpapers.length > 1 ? `
-        <h2 class="wallpapers-title">📚 历史壁纸</h2>
+        ${pageItems.length > 0 ? `
+        <h2 class="wallpapers-title">📚 历史壁纸 ${currentPage > 1 ? `(第 ${currentPage} 页)` : ''}</h2>
         <div class="wallpapers-grid">
-            ${itemsArray.slice(1).join('')}
+            ${itemsHtml}
         </div>
+        ${paginationHtml}
         ` : ''}
         
         <footer>
