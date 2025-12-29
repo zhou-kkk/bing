@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!-- wallpaper-id: 20251228_nq5hx8a8w timestamp: 2025-12-28 02:07:03 -->
+<!-- wallpaper-id: 20251229_2pbl3l09c timestamp: 2025-12-29 02:13:21 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -179,6 +179,37 @@
             opacity: 0.9;
         }
         
+        /* Pagination Styles */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .page-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #0f574a;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .page-link:hover {
+            background: #f0f0f0;
+            border-color: #bbb;
+        }
+        
+        .page-link.active {
+            background: #0f574a;
+            color: white;
+            border-color: #0f574a;
+        }
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -203,26 +234,46 @@
         
         
         <div class="featured">
-            <img src="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" alt="仍存野性">
+            <img src="https://www.bing.com/th?id=OHR.AniTurkey_ZH-CN5838141955_1920x1080.jpg" alt="一座比城市更悠久的教堂">
             <div class="featured-info">
-                <h2>仍存野性</h2>
+                <h2>一座比城市更悠久的教堂</h2>
                 <p></p>
-                <p class="copyright">马达加斯加的黑白环尾狐猴 (© Cyrielle Beaubois/Getty Images)</p>
-                <a href="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" target="_blank" class="btn-download">⬇️ 下载原图</a>
+                <p class="copyright">
+                    阿尼遗址的圣格雷戈里教堂，卡尔斯省，土耳其 (© Kenan Talas/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E5%9C%9F%E8%80%B3%E5%85%B6%E9%98%BF%E5%B0%BC%E9%81%97%E5%9D%80&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f; margin-left: 10px;">了解更多</a>
+                </p>
+                <a href="https://www.bing.com/th?id=OHR.AniTurkey_ZH-CN5838141955_1920x1080.jpg" target="_blank" class="btn-download">⬇️ 下载原图</a>
             </div>
         </div>
         
         
         
-        <h2 class="wallpapers-title">📚 历史壁纸</h2>
+        <h2 class="wallpapers-title">📚 历史壁纸 </h2>
         <div class="wallpapers-grid">
             
+        <div class="wallpaper-item">
+            <img src="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" alt="仍存野性" loading="lazy">
+            <div class="info">
+                <h3>仍存野性</h3>
+                <p class="description"></p>
+                <p class="copyright">
+                    马达加斯加的黑白环尾狐猴 (© Cyrielle Beaubois/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E9%BB%91%E7%99%BD%E7%8E%AF%E5%B0%BE%E7%8B%90%E7%8C%B4&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
+                <p class="date">2025-12-28</p>
+                <a href="https://www.bing.com/th?id=OHR.RuffedLemur_ZH-CN5636795490_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
+            </div>
+        </div>
+    
         <div class="wallpaper-item">
             <img src="https://www.bing.com/th?id=OHR.SuperiorIceMN_ZH-CN5339027344_1920x1080.jpg" alt="冬之碎片" loading="lazy">
             <div class="info">
                 <h3>冬之碎片</h3>
                 <p class="description"></p>
-                <p class="copyright">苏必利尔湖沿岸的冰层，大马雷，明尼苏达州，美国 (© wanderluster/Getty Images)</p>
+                <p class="copyright">
+                    苏必利尔湖沿岸的冰层，大马雷，明尼苏达州，美国 (© wanderluster/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E6%98%8E%E5%B0%BC%E8%8B%8F%E8%BE%BE%E5%B7%9E%E8%8B%8F%E5%BF%85%E5%88%A9%E5%B0%94%E6%B9%96&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
                 <p class="date">2025-12-27</p>
                 <a href="https://www.bing.com/th?id=OHR.SuperiorIceMN_ZH-CN5339027344_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
             </div>
@@ -233,7 +284,10 @@
             <div class="info">
                 <h3>打破盒子的传统</h3>
                 <p class="description"></p>
-                <p class="copyright">索尔兹伯里大教堂，威尔特郡，英格兰 (© Julian Elliott Photography/Getty Images)</p>
+                <p class="copyright">
+                    索尔兹伯里大教堂，威尔特郡，英格兰 (© Julian Elliott Photography/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E8%8A%82%E7%A4%BC%E6%97%A5&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
                 <p class="date">2025-12-26</p>
                 <a href="https://www.bing.com/th?id=OHR.WiltshireDawn_ZH-CN2887906329_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
             </div>
@@ -244,7 +298,10 @@
             <div class="info">
                 <h3>微缩世界，无尽奇想</h3>
                 <p class="description"></p>
-                <p class="copyright">海德堡圣诞市场上的雪球，德国 (© George Pachantouris/Getty Images)</p>
+                <p class="copyright">
+                    海德堡圣诞市场上的雪球，德国 (© George Pachantouris/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E5%9C%A3%E8%AF%9E%E8%8A%82&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
                 <p class="date">2025-12-25</p>
                 <a href="https://www.bing.com/th?id=OHR.SantaGlobe_ZH-CN7032279153_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
             </div>
@@ -255,7 +312,10 @@
             <div class="info">
                 <h3>流动的传统</h3>
                 <p class="description"></p>
-                <p class="copyright">巴伐利亚阿尔卑斯山脉的雪中教堂与圣诞树，德国 (© mauritius images GmbH/Alamy)</p>
+                <p class="copyright">
+                    巴伐利亚阿尔卑斯山脉的雪中教堂与圣诞树，德国 (© mauritius images GmbH/Alamy)
+                    <a href="https://www.bing.com/search?q=%E5%B9%B3%E5%AE%89%E5%A4%9C&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
                 <p class="date">2025-12-24</p>
                 <a href="https://www.bing.com/th?id=OHR.ElmauChapel_ZH-CN6919330333_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
             </div>
@@ -266,7 +326,10 @@
             <div class="info">
                 <h3>当节日的魔法踩着蹄声而来</h3>
                 <p class="description"></p>
-                <p class="copyright">冬雪中的驯鹿，拉普兰德，芬兰 (© Roberto Moiola/Getty Images)</p>
+                <p class="copyright">
+                    冬雪中的驯鹿，拉普兰德，芬兰 (© Roberto Moiola/Getty Images)
+                    <a href="https://www.bing.com/search?q=%E9%A9%AF%E9%B9%BF&form=hpcapt&mkt=zh-cn" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>
+                </p>
                 <p class="date">2025-12-23</p>
                 <a href="https://www.bing.com/th?id=OHR.ReindeerFinland_ZH-CN6822163943_1920x1080.jpg" target="_blank" class="btn-download">下载原图</a>
             </div>
@@ -275,9 +338,10 @@
         </div>
         
         
+        
         <footer>
             <p>💡 数据来自 <a href="https://www.bing.com" target="_blank" style="color: yellow;">Bing</a></p>
-            <p>最后更新: 2025-12-28 02:07:03</p>
+            <p>最后更新: 2025-12-29 02:13:21 UTC</p>
         </footer>
     </div>
 </body>
