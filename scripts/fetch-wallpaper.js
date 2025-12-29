@@ -64,7 +64,6 @@ async function fetchBingWallpaper() {
             copyrightlink: image.copyrightlink,
             urlbase: image.urlbase,
             url: 'https://www.bing.com' + image.urlbase + '_1920x1080.jpg',
-            imageUrl: 'https://www.bing.com' + image.urlbase + '_1920x1080.jpg',
             mkt: image.mkt,
             startdate: image.startdate,
             enddate: image.enddate,
@@ -222,11 +221,14 @@ function generateHTML(latest, pageItems, currentPage, totalPages) {
     // 生成列表项 HTML
     const itemsHtml = pageItems.map(wp => `
         <div class="wallpaper-item">
-            <img src="${wp.url || wp.imageUrl || '#'}" alt="${wp.title}" loading="lazy">
+            <img src="${wp.url || '#'}" alt="${wp.title}" loading="lazy">
             <div class="info">
                 <h3>${wp.title || '未知标题'}</h3>
                 <p class="description">${wp.description || ''}</p>
-                <p class="copyright">${wp.copyright || ''}</p>
+                <p class="copyright">
+                    ${wp.copyright || ''}
+                    ${wp.copyrightlink ? `<a href="${wp.copyrightlink}" target="_blank" style="text-decoration: none; color: #2a9d8f;">了解更多</a>` : ''}
+                </p>
                 <p class="date">${wp.date || ''}</p>
                 ${wp.url ? `<a href="${wp.url}" target="_blank" class="btn-download">下载原图</a>` : ''}
             </div>
@@ -499,14 +501,17 @@ function generateHTML(latest, pageItems, currentPage, totalPages) {
             <p>每日自动更新最新的必应壁纸</p>
         </header>
         
-        ${currentPage === 1 && (latest.url || latest.imageUrl) ? `
+        ${currentPage === 1 && latest.url ? `
         <div class="featured">
-            <img src="${latest.url || latest.imageUrl}" alt="${latest.title}">
+            <img src="${latest.url}" alt="${latest.title}">
             <div class="featured-info">
                 <h2>${latest.title || '今日壁纸'}</h2>
                 <p>${latest.description || ''}</p>
-                <p class="copyright">${latest.copyright || ''}</p>
-                <a href="${latest.url || latest.imageUrl}" target="_blank" class="btn-download">⬇️ 下载原图</a>
+                <p class="copyright">
+                    ${latest.copyright || ''}
+                    ${latest.copyrightlink ? `<a href="${latest.copyrightlink}" target="_blank" style="text-decoration: none; color: #2a9d8f; margin-left: 10px;">了解更多</a>` : ''}
+                </p>
+                <a href="${latest.url}" target="_blank" class="btn-download">⬇️ 下载原图</a>
             </div>
         </div>
         ` : ''}
@@ -521,7 +526,7 @@ function generateHTML(latest, pageItems, currentPage, totalPages) {
         
         <footer>
             <p>💡 数据来自 <a href="https://www.bing.com" target="_blank" style="color: yellow;">Bing</a></p>
-            <p>最后更新: ${moment().format('YYYY-MM-DD HH:mm:ss')}</p>
+            <p>最后更新: ${moment().format('YYYY-MM-DD HH:mm:ss')} UTC</p>
         </footer>
     </div>
 </body>

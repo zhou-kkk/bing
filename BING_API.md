@@ -328,9 +328,5 @@ const imageUrl = 'https://www.bing.com' + image.urlbase + '_1920x1080.jpg';
 
 见 `scripts/` 目录中的各类脚本：
 - `fetch-wallpaper.js` - 主爬虫脚本
-- `test.js` - API 测试脚本
 
 ---
-
-**更新日期：** 2024年
-**Bing API 版本：** 当前最新

@@ -4,8 +4,7 @@
     "description": "Auto fetch Bing wallpapers daily and share via GitHub Pages",
     "main": "index.js",
     "scripts": {
-        "fetch": "node scripts/fetch-wallpaper.js",
-        "test": "node scripts/test.js"
+        "fetch": "node scripts/fetch-wallpaper.js"
     },
     "keywords": [
         "bing",

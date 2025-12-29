@@ -90,10 +90,7 @@ cd bing
 # 2. 安装依赖
 npm install
 
-# 3. 测试 API 接口
-npm run test
-
-# 4. 运行爬虫脚本
+# 3. 运行爬虫脚本
 npm run fetch
 ```
 
