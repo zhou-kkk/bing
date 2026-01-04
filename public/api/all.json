@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260104_xgkdqr3rz",
+      "timestamp": "2026-01-04 02:08:52",
+      "date": "2026-01-04",
+      "title": "王者视野",
+      "copyright": "国王山, 楚加奇山脉, 阿拉斯加, 美国 (© Chris Moore - Exploring Light Photography/TANDEM Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A5%9A%E5%8A%A0%E5%A5%87%E5%B1%B1%E8%84%89&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.KingMountain_ZH-CN0397508222",
+      "url": "https://www.bing.com/th?id=OHR.KingMountain_ZH-CN0397508222_1920x1080.jpg",
+      "startdate": "20260103",
+      "enddate": "20260104",
+      "fullstartdate": "202601031600",
+      "hsh": "8cf8bf55b8ddda8d0a9df7717c4890f5",
+      "localPath": "/wallpapers/2026-01-04_____.jpg"
+    },
+    {
       "id": "20260103_j7w2t713d",
       "timestamp": "2026-01-03 01:52:28",
       "date": "2026-01-03",
@@ -187,6 +202,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 12,
+  "count": 13,
   "status": "success"
 }
