@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260302_kwzcyvyf3",
+      "timestamp": "2026-03-02 02:28:38",
+      "date": "2026-03-02",
+      "title": "漂浮的传承",
+      "copyright": "苏梅岛的港口和长尾船, 泰国 (© Foto2rich/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%B3%B0%E5%9B%BD%E8%8B%8F%E6%A2%85%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.SamuiThailand_ZH-CN3323790951",
+      "url": "https://www.bing.com/th?id=OHR.SamuiThailand_ZH-CN3323790951_1920x1080.jpg",
+      "startdate": "20260301",
+      "enddate": "20260302",
+      "fullstartdate": "202603011600",
+      "hsh": "8d030509b56f36f3e2849c2f3170cc8b",
+      "localPath": "/wallpapers/2026-03-02______.jpg"
+    },
+    {
       "id": "20260301_a0867yns2",
       "timestamp": "2026-03-01 02:39:42",
       "date": "2026-03-01",
@@ -1042,6 +1057,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 69,
+  "count": 70,
   "status": "success"
 }
