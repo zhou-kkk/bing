@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260307_c8911wueq",
+      "timestamp": "2026-03-07 02:11:58",
+      "date": "2026-03-07",
+      "title": "治愈、宁静且充满希望",
+      "copyright": "布罗肯峰的日出, 哈尔茨国家公园, 德国 (© imageBROKER/AVTG/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%93%88%E5%B0%94%E8%8C%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.BrockenSunrise_ZH-CN4930790850",
+      "url": "https://www.bing.com/th?id=OHR.BrockenSunrise_ZH-CN4930790850_1920x1080.jpg",
+      "startdate": "20260306",
+      "enddate": "20260307",
+      "fullstartdate": "202603061600",
+      "hsh": "fcff782cc7738724f7a5a4038360f609",
+      "localPath": "/wallpapers/2026-03-07___________.jpg"
+    },
+    {
       "id": "20260306_0757kzmpo",
       "timestamp": "2026-03-06 02:25:22",
       "date": "2026-03-06",
@@ -1117,6 +1132,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 74,
+  "count": 75,
   "status": "success"
 }
