@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260401_oa4k6x1k5",
+      "timestamp": "2026-04-01 02:53:56",
+      "date": "2026-04-01",
+      "title": "跃入四月",
+      "copyright": "粉色牵牛花里的日本树蛙 (© Tetsuya Tanooka/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%97%A5%E6%9C%AC%E6%A0%91%E8%9B%99&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.JapaneseTreeFrog_ZH-CN6467379766",
+      "url": "https://www.bing.com/th?id=OHR.JapaneseTreeFrog_ZH-CN6467379766_1920x1080.jpg",
+      "startdate": "20260331",
+      "enddate": "20260401",
+      "fullstartdate": "202603311600",
+      "hsh": "68b066b81c6d22a5a701ab93cb780b1c",
+      "localPath": "/wallpapers/2026-04-01_____.jpg"
+    },
+    {
       "id": "20260331_9len0pr1r",
       "timestamp": "2026-03-31 02:42:08",
       "date": "2026-03-31",
@@ -1492,6 +1507,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 99,
+  "count": 100,
   "status": "success"
 }
