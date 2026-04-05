@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260405_3wdf22yxk",
+      "timestamp": "2026-04-05 02:49:00",
+      "date": "2026-04-05",
+      "title": "静静绽放的变化",
+      "copyright": "春天的雪钟花 (© klagyivik/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9B%AA%E9%92%9F%E8%8A%B1&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.SpringSnowdrops_ZH-CN2933051747",
+      "url": "https://www.bing.com/th?id=OHR.SpringSnowdrops_ZH-CN2933051747_1920x1080.jpg",
+      "startdate": "20260404",
+      "enddate": "20260405",
+      "fullstartdate": "202604041600",
+      "hsh": "0e04c62ff1cc802dc0ad2477031abe23",
+      "localPath": "/wallpapers/2026-04-05________.jpg"
+    },
+    {
       "id": "20260404_1w9yev5e2",
       "timestamp": "2026-04-04 02:31:20",
       "date": "2026-04-04",
@@ -1552,6 +1567,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 103,
+  "count": 104,
   "status": "success"
 }
