@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260409_sjrh0h45l",
+      "timestamp": "2026-04-09 02:39:22",
+      "date": "2026-04-09",
+      "title": "光之水帘",
+      "copyright": "雪落瀑布，布雷肯比肯斯国家公园，威尔士 (© Guy Edwardes/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%B8%83%E9%9B%B7%E8%82%AF%E6%AF%94%E8%82%AF%E6%96%AF%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.WalesWaterfall_ZH-CN3175091833",
+      "url": "https://www.bing.com/th?id=OHR.WalesWaterfall_ZH-CN3175091833_1920x1080.jpg",
+      "startdate": "20260408",
+      "enddate": "20260409",
+      "fullstartdate": "202604081600",
+      "hsh": "941e3325116376df48714ec556da1485",
+      "localPath": "/wallpapers/2026-04-09_____.jpg"
+    },
+    {
       "id": "20260408_2uovedkwo",
       "timestamp": "2026-04-08 02:44:35",
       "date": "2026-04-08",
@@ -1612,6 +1627,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 107,
+  "count": 108,
   "status": "success"
 }
