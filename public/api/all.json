@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260415_ht2ijp8f0",
+      "timestamp": "2026-04-15 02:49:47",
+      "date": "2026-04-15",
+      "title": "走进这幅鲜活的画布",
+      "copyright": "光之采石场的文森特·梵高展览, 莱博德普罗旺斯, 法国 (© Patrick Aventurier/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E8%89%BA%E6%9C%AF%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.VanGoghFields_ZH-CN3495668941",
+      "url": "https://www.bing.com/th?id=OHR.VanGoghFields_ZH-CN3495668941_1920x1080.jpg",
+      "startdate": "20260414",
+      "enddate": "20260415",
+      "fullstartdate": "202604141600",
+      "hsh": "0bade557bcb3291f0c5833bf525d3f99",
+      "localPath": "/wallpapers/2026-04-15__________.jpg"
+    },
+    {
       "id": "20260414_u0s1vavup",
       "timestamp": "2026-04-14 02:52:10",
       "date": "2026-04-14",
@@ -1702,6 +1717,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 113,
+  "count": 114,
   "status": "success"
 }
