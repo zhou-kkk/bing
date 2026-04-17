@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260417_ko28n9q70",
+      "timestamp": "2026-04-17 02:52:14",
+      "date": "2026-04-17",
+      "title": "蝙蝠信号：开启",
+      "copyright": "灰头狐蝠母亲携幼崽，雅拉湾国家公园，澳大利亚 (© Doug Gimesy/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E8%9D%99%E8%9D%A0&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.FlyingFoxMom_ZH-CN2913012516",
+      "url": "https://www.bing.com/th?id=OHR.FlyingFoxMom_ZH-CN2913012516_1920x1080.jpg",
+      "startdate": "20260416",
+      "enddate": "20260417",
+      "fullstartdate": "202604161600",
+      "hsh": "043f29f910dede498ae0d959767e3cba",
+      "localPath": "/wallpapers/2026-04-17________.jpg"
+    },
+    {
       "id": "20260416_fgvz0udee",
       "timestamp": "2026-04-16 02:56:29",
       "date": "2026-04-16",
@@ -1732,6 +1747,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 115,
+  "count": 116,
   "status": "success"
 }
