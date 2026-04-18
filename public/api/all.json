@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260418_e3ogkoprc",
+      "timestamp": "2026-04-18 02:43:07",
+      "date": "2026-04-18",
+      "title": "未完成巨像的静默",
+      "copyright": "摩艾石像采石场，拉诺拉拉库，复活节岛，智利 (© Gavin Hellier/Alamy)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%96%E7%95%8C%E9%81%97%E4%BA%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.MaoiStatues_ZH-CN3219447748",
+      "url": "https://www.bing.com/th?id=OHR.MaoiStatues_ZH-CN3219447748_1920x1080.jpg",
+      "startdate": "20260417",
+      "enddate": "20260418",
+      "fullstartdate": "202604171600",
+      "hsh": "c707952097721367ddb1ab8b6d323373",
+      "localPath": "/wallpapers/2026-04-18_________.jpg"
+    },
+    {
       "id": "20260417_ko28n9q70",
       "timestamp": "2026-04-17 02:52:14",
       "date": "2026-04-17",
@@ -1747,6 +1762,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 116,
+  "count": 117,
   "status": "success"
 }
