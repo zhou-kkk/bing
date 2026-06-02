@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260602_xsoxqiaw6",
+      "timestamp": "2026-06-02 04:16:50",
+      "date": "2026-06-02",
+      "title": "穿行于蓝色之间",
+      "copyright": "穿越西台吉乃尔湖的公路，青海省，中国 (© Kaicheng Xu/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%B8%AD%E5%9B%BD%E6%9F%B4%E8%BE%BE%E6%9C%A8%E7%9B%86%E5%9C%B0&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.Qinghai_ZH-CN9899656327",
+      "url": "https://www.bing.com/th?id=OHR.Qinghai_ZH-CN9899656327_1920x1080.jpg",
+      "startdate": "20260601",
+      "enddate": "20260602",
+      "fullstartdate": "202606011600",
+      "hsh": "517ab01bc515a94d6619be1259b11e38",
+      "localPath": "/wallpapers/2026-06-02________.jpg"
+    },
+    {
       "id": "20260601_xkg8rbwrc",
       "timestamp": "2026-06-01 04:23:38",
       "date": "2026-06-01",
@@ -2422,6 +2437,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 161,
+  "count": 162,
   "status": "success"
 }
