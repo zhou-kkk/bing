@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260604_69zwzefxe",
+      "timestamp": "2026-06-04 04:21:23",
+      "date": "2026-06-04",
+      "title": "优雅羽饰",
+      "copyright": "梳理羽毛的雪鹭，佛罗里达州中部，美国 (© Donald M. Jones/Minden Pictures)",
+      "copyrightlink": "https://www.bing.com/search?q=%E9%9B%AA%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.PreeningEgret_ZH-CN2216012708",
+      "url": "https://www.bing.com/th?id=OHR.PreeningEgret_ZH-CN2216012708_1920x1080.jpg",
+      "startdate": "20260603",
+      "enddate": "20260604",
+      "fullstartdate": "202606031600",
+      "hsh": "c3191cd2ed2f1b16bbc3dbaa07b7e74d",
+      "localPath": "/wallpapers/2026-06-04_____.jpg"
+    },
+    {
       "id": "20260603_9dlf63icc",
       "timestamp": "2026-06-03 04:26:23",
       "date": "2026-06-03",
@@ -2452,6 +2467,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 163,
+  "count": 164,
   "status": "success"
 }
