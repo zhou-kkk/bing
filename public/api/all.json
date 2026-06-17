@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260617_zr6v6z86c",
+      "timestamp": "2026-06-17 04:24:36",
+      "date": "2026-06-17",
+      "title": "蜿蜒而上",
+      "copyright": "特雷莫拉公路在圣哥达山口，艾罗洛，瑞士 (© Sandro Bisaro/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%89%B9%E9%9B%B7%E8%8E%AB%E6%8B%89%E5%85%AC%E8%B7%AF&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.TremolaRoad_ZH-CN8810749250",
+      "url": "https://www.bing.com/th?id=OHR.TremolaRoad_ZH-CN8810749250_1920x1080.jpg",
+      "startdate": "20260616",
+      "enddate": "20260617",
+      "fullstartdate": "202606161600",
+      "hsh": "0b83ed4346a23d626a5d9cafe7091075",
+      "localPath": "/wallpapers/2026-06-17_____.jpg"
+    },
+    {
       "id": "20260616_digrcivwd",
       "timestamp": "2026-06-16 04:43:47",
       "date": "2026-06-16",
@@ -2647,6 +2662,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 176,
+  "count": 177,
   "status": "success"
 }
