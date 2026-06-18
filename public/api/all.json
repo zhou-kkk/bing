@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260618_8ijaoyitt",
+      "timestamp": "2026-06-18 04:17:45",
+      "date": "2026-06-18",
+      "title": "坚如磐石的奇观",
+      "copyright": "萨克赛瓦曼遗址俯瞰图，库斯科，秘鲁 (© Creative-Family/Getty Images Plus)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%A7%98%E9%B2%81%E8%90%A8%E5%85%8B%E5%A1%9E%E5%8D%8E%E6%9B%BC&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.Saqsaywaman_ZH-CN2584038469",
+      "url": "https://www.bing.com/th?id=OHR.Saqsaywaman_ZH-CN2584038469_1920x1080.jpg",
+      "startdate": "20260617",
+      "enddate": "20260618",
+      "fullstartdate": "202606171600",
+      "hsh": "1af11bfb02f2265892aa166f39fb4c35",
+      "localPath": "/wallpapers/2026-06-18________.jpg"
+    },
+    {
       "id": "20260617_zr6v6z86c",
       "timestamp": "2026-06-17 04:24:36",
       "date": "2026-06-17",
@@ -2662,6 +2677,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 177,
+  "count": 178,
   "status": "success"
 }
