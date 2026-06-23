@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260623_8j9jy2y56",
+      "timestamp": "2026-06-23 03:52:02",
+      "date": "2026-06-23",
+      "title": "天际线上的印记",
+      "copyright": "本州岛上的富士山, 日本 (© phutthiseth thongtae/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%AF%8C%E5%A3%AB%E5%B1%B1&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.Fujisan_ZH-CN7203975085",
+      "url": "https://www.bing.com/th?id=OHR.Fujisan_ZH-CN7203975085_1920x1080.jpg",
+      "startdate": "20260622",
+      "enddate": "20260623",
+      "fullstartdate": "202606221600",
+      "hsh": "6b06bae5372406012a27a9185c430395",
+      "localPath": "/wallpapers/2026-06-23________.jpg"
+    },
+    {
       "id": "20260622_qd2le7jqk",
       "timestamp": "2026-06-22 04:46:47",
       "date": "2026-06-22",
@@ -2737,6 +2752,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 182,
+  "count": 183,
   "status": "success"
 }
