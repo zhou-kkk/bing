@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260627_akl2by4y8",
+      "timestamp": "2026-06-27 03:44:24",
+      "date": "2026-06-27",
+      "title": "逐渐失去立足之地的树木",
+      "copyright": "博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国 (© Frances/Adobe Stock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BA%A8%E5%BB%B7%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.BoneyardBeach_ZH-CN5540590570",
+      "url": "https://www.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg",
+      "startdate": "20260626",
+      "enddate": "20260627",
+      "fullstartdate": "202606261600",
+      "hsh": "430c1f4847a17f50aecd5df4f069b9b9",
+      "localPath": "/wallpapers/2026-06-27____________.jpg"
+    },
+    {
       "id": "20260626_0428tflcv",
       "timestamp": "2026-06-26 04:00:32",
       "date": "2026-06-26",
@@ -2797,6 +2812,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 186,
+  "count": 187,
   "status": "success"
 }
