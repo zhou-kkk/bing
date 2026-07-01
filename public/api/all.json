@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260701_9h548ber6",
+      "timestamp": "2026-07-01 04:11:11",
+      "date": "2026-07-01",
+      "title": "大西洋雕琢而成的加拿大",
+      "copyright": "地牢省立公园, 纽芬兰和拉布拉多省, 加拿大 (© Kaitlyn McLachlan/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9C%B0%E7%89%A2%E7%9C%81%E7%AB%8B%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.DungeonPark_ZH-CN9544093701",
+      "url": "https://www.bing.com/th?id=OHR.DungeonPark_ZH-CN9544093701_1920x1080.jpg",
+      "startdate": "20260630",
+      "enddate": "20260701",
+      "fullstartdate": "202606301600",
+      "hsh": "f62b9b3a63257a6066fec82f3c5eef25",
+      "localPath": "/wallpapers/2026-07-01____________.jpg"
+    },
+    {
       "id": "20260630_ihm0in4sv",
       "timestamp": "2026-06-30 03:56:19",
       "date": "2026-06-30",
@@ -2857,6 +2872,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 190,
+  "count": 191,
   "status": "success"
 }
