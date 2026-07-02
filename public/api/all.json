@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260702_g213ligan",
+      "timestamp": "2026-07-02 03:52:03",
+      "date": "2026-07-02",
+      "title": "走进埃斯纳神圣的世界",
+      "copyright": "埃斯纳神庙穹顶天花板, 埃及 (© Nick Brundle Photography/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9F%83%E5%8F%8A%E5%9F%83%E6%96%AF%E7%BA%B3%E7%A5%9E%E5%BA%99&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.TempleEsna_ZH-CN9834689523",
+      "url": "https://www.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg",
+      "startdate": "20260701",
+      "enddate": "20260702",
+      "fullstartdate": "202607011600",
+      "hsh": "f65ddd6a84f4c169a15d0c462c0b3498",
+      "localPath": "/wallpapers/2026-07-02___________.jpg"
+    },
+    {
       "id": "20260701_9h548ber6",
       "timestamp": "2026-07-01 04:11:11",
       "date": "2026-07-01",
@@ -2872,6 +2887,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 191,
+  "count": 192,
   "status": "success"
 }
