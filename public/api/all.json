@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260708_9xowio8jl",
+      "timestamp": "2026-07-08 02:56:12",
+      "date": "2026-07-08",
+      "title": "远古火山的回响",
+      "copyright": "阿蒂特兰湖的日出，危地马拉 (© shayes17/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89+%E9%98%BF%E8%92%82%E7%89%B9%E5%85%B0%E6%B9%96&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.LakeAtitlan_ZH-CN1920221893",
+      "url": "https://www.bing.com/th?id=OHR.LakeAtitlan_ZH-CN1920221893_1920x1080.jpg",
+      "startdate": "20260707",
+      "enddate": "20260708",
+      "fullstartdate": "202607071600",
+      "hsh": "ec9c5dabe6aea83191bc1ec9373b10e5",
+      "localPath": "/wallpapers/2026-07-08________.jpg"
+    },
+    {
       "id": "20260707_0cy1c8ivf",
       "timestamp": "2026-07-07 03:41:40",
       "date": "2026-07-07",
@@ -2962,6 +2977,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 197,
+  "count": 198,
   "status": "success"
 }
