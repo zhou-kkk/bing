@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20260726_xgm8nb2au",
+      "timestamp": "2026-07-26 03:17:13",
+      "date": "2026-07-26",
+      "title": "海陆际会，生机肇始",
+      "copyright": "红树上的日出在小猪群岛，洪都拉斯 (© Mac Stone/Tandem Stills + Motion)",
+      "copyrightlink": "https://www.bing.com/search?q=%E4%BF%9D%E6%8A%A4%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F%E5%9B%BD%E9%99%85%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392",
+      "url": "https://www.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_1920x1080.jpg",
+      "startdate": "20260725",
+      "enddate": "20260726",
+      "fullstartdate": "202607251600",
+      "hsh": "74586614148879a7d235577d774dd612",
+      "localPath": "/wallpapers/2026-07-26__________.jpg"
+    },
+    {
       "id": "20260725_ziq43dzcg",
       "timestamp": "2026-07-25 02:52:02",
       "date": "2026-07-25",
@@ -3232,6 +3247,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 215,
+  "count": 216,
   "status": "success"
 }
