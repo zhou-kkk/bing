@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261003_gy058j1rx",
+      "timestamp": "2026-10-03 04:27:10",
+      "date": "2026-10-03",
+      "title": "捕捉、进食、重复",
+      "copyright": "美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊 (© Danny Green/Nature Picture Library)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%A3%95%E7%86%8A&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.GrizzlySwim_ZH-CN1005455737",
+      "url": "https://www.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg",
+      "startdate": "20261002",
+      "enddate": "20261003",
+      "fullstartdate": "202610021600",
+      "hsh": "9ed9a42beee43d28f667ab6b68b9e800",
+      "localPath": "/wallpapers/2026-10-03_________.jpg"
+    },
+    {
       "id": "20261002_njb9bbmk0",
       "timestamp": "2026-10-02 04:44:43",
       "date": "2026-10-02",
@@ -4267,6 +4282,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 284,
+  "count": 285,
   "status": "success"
 }
