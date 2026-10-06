@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261006_ospvs6bv5",
+      "timestamp": "2026-10-06 05:31:59",
+      "date": "2026-10-06",
+      "title": "条纹中的地球故事",
+      "copyright": "丹霞地貌，张掖国家地质公园，甘肃省，中国 (© Weiquan Lin/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%9B%BD%E9%99%85%E5%9C%B0%E8%B4%A8%E5%A4%9A%E6%A0%B7%E6%80%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.DanxiaLandform_ZH-CN2386060246",
+      "url": "https://www.bing.com/th?id=OHR.DanxiaLandform_ZH-CN2386060246_1920x1080.jpg",
+      "startdate": "20261005",
+      "enddate": "20261006",
+      "fullstartdate": "202610051600",
+      "hsh": "e9709af86328b2bb435f7f583234829d",
+      "localPath": "/wallpapers/2026-10-06_________.jpg"
+    },
+    {
       "id": "20261005_sm4b7oq9k",
       "timestamp": "2026-10-05 04:45:25",
       "date": "2026-10-05",
@@ -4312,6 +4327,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 287,
+  "count": 288,
   "status": "success"
 }
