@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261012_hkuj7lzhj",
+      "timestamp": "2026-10-12 05:03:31",
+      "date": "2026-10-12",
+      "title": "从铁轨到潮汐",
+      "copyright": "曼布尔斯码头，斯旺西，威尔士 (© Helen Hotson/Shutterstock)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A8%81%E5%B0%94%E5%A3%AB%E6%9B%BC%E5%B8%83%E5%B0%94%E6%96%AF%E7%A0%81%E5%A4%B4&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.MumblesSwansea2026_ZH-CN5419531039",
+      "url": "https://www.bing.com/th?id=OHR.MumblesSwansea2026_ZH-CN5419531039_1920x1080.jpg",
+      "startdate": "20261011",
+      "enddate": "20261012",
+      "fullstartdate": "202610111600",
+      "hsh": "52a0d9733d05abd4f85ef59a8830caf9",
+      "localPath": "/wallpapers/2026-10-12_______.jpg"
+    },
+    {
       "id": "20261011_z21zxg7oq",
       "timestamp": "2026-10-11 04:48:16",
       "date": "2026-10-11",
@@ -4402,6 +4417,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 293,
+  "count": 294,
   "status": "success"
 }
