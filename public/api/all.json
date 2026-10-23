@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261023_9rxyca53r",
+      "timestamp": "2026-10-23 03:55:42",
+      "date": "2026-10-23",
+      "title": "荒野伙伴",
+      "copyright": "两只灰狼，黄石国家公园，怀俄明州，美国 (© John Morrison/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E7%81%B0%E7%8B%BC&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.YellowstoneWolves_ZH-CN6767268961",
+      "url": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg",
+      "startdate": "20261022",
+      "enddate": "20261023",
+      "fullstartdate": "202610221600",
+      "hsh": "0360442f708dff212a10b844a50f9ef0",
+      "localPath": "/wallpapers/2026-10-23_____.jpg"
+    },
+    {
       "id": "20261022_rxbobqhfj",
       "timestamp": "2026-10-22 03:51:38",
       "date": "2026-10-22",
@@ -4567,6 +4582,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 304,
+  "count": 305,
   "status": "success"
 }
