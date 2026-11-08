@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261108_hc4f6l466",
+      "timestamp": "2026-11-08 05:08:58",
+      "date": "2026-11-08",
+      "title": "光芒四射的节日",
+      "copyright": "排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%8E%92%E7%81%AF%E8%8A%82&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.DiwaliLamps_ZH-CN2462894749",
+      "url": "https://www.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg",
+      "startdate": "20261107",
+      "enddate": "20261108",
+      "fullstartdate": "202611071600",
+      "hsh": "8603d5f4458b499767e4c196511719c7",
+      "localPath": "/wallpapers/2026-11-08________.jpg"
+    },
+    {
       "id": "20261107_i0fqgcm4i",
       "timestamp": "2026-11-07 05:13:06",
       "date": "2026-11-07",
@@ -4807,6 +4822,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 320,
+  "count": 321,
   "status": "success"
 }
