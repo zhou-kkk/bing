@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261112_1zwikoc8a",
+      "timestamp": "2026-11-12 06:22:58",
+      "date": "2026-11-12",
+      "title": "没有建筑师的建筑杰作",
+      "copyright": "北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E6%8B%B1%E9%97%A8%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.NorthWindow_ZH-CN6734579353",
+      "url": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg",
+      "startdate": "20261111",
+      "enddate": "20261112",
+      "fullstartdate": "202611111600",
+      "hsh": "4cd78b6a40ab0d146b30dc1d5e26cd6e",
+      "localPath": "/wallpapers/2026-11-12___________.jpg"
+    },
+    {
       "id": "20261111_xzo8ivwrx",
       "timestamp": "2026-11-11 05:18:55",
       "date": "2026-11-11",
@@ -4867,6 +4882,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 324,
+  "count": 325,
   "status": "success"
 }
