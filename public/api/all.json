@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "20261126_zkenozzqk",
+      "timestamp": "2026-11-26 07:28:10",
+      "date": "2026-11-26",
+      "title": "彩虹落下的地方",
+      "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
+      "copyrightlink": "https://www.bing.com/search?q=%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%B7%9E%E6%80%80%E5%8D%A2%E5%BA%93%E6%B2%B3%E7%9A%84%E5%BD%A9%E8%99%B9%E7%80%91%E5%B8%83&form=hpcapt&mkt=zh-cn",
+      "urlbase": "/th?id=OHR.RFHilo_ZH-CN5962114314",
+      "url": "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg",
+      "startdate": "20261125",
+      "enddate": "20261126",
+      "fullstartdate": "202611251600",
+      "hsh": "f8c04b2a00aa14c262abbfe7827c039b",
+      "localPath": "/wallpapers/2026-11-26________.jpg"
+    },
+    {
       "id": "20261125_8t2au8htf",
       "timestamp": "2026-11-25 07:38:53",
       "date": "2026-11-25",
@@ -5077,6 +5092,6 @@
       "localPath": "/wallpapers/2025-12-23_____________.jpg"
     }
   ],
-  "count": 338,
+  "count": 339,
   "status": "success"
 }
